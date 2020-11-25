@@ -1,0 +1,28 @@
+.background-color {
+  background-color:#F0F8FF !important;
+  background-size: cover !important;
+  height: 90vh !important;
+  width: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  border-radius: 20px !important;
+ 
+}
+.profilePicture {
+     border-radius: 50%;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     /* width: 50%; */
+     height :340px;
+     width:320px;
+   
+}
+
+/* .text-color{
+    color:#00BFFF
+} */
+
+/* .sidebar-style{
+    border-radius:20px;
+} */

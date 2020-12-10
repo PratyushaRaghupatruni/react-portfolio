@@ -1,0 +1,13 @@
+.footer{
+    /* visual */
+   color: cornsilk;
+
+   /*positioning*/
+   text-align:center;
+   position: fixed;
+
+  /*box-model*/  
+   padding:40px;
+   bottom: 0;
+   width: 100%; 
+}

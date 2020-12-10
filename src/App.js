@@ -1,7 +1,7 @@
 
 import './App.css';
 import Main from './Pages/Main/main';
-import Projects from './Components/Projects';
+import Portfolio from './Components/Portfolio';
 import About from './Components/About';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
@@ -11,7 +11,7 @@ function App() {
 				{/* Router */}
 				<Switch>
 					<Route path="/" exact component={Main} />
-					<Route path="/projects" exact component={Projects} />
+					<Route path="/portfolio" exact component={Portfolio} />
 					<Route path="/about" exact component={About} />
 				</Switch>
 

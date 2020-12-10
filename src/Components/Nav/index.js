@@ -2,7 +2,7 @@ import React from 'react';
 // import "../../css/style.css";
 // import { Navbar, Form, Button } from 'react-bootstrap';
 
-export default function index() {
+export default function Nav() {
     return (
         <div>
            <div>
@@ -19,17 +19,8 @@ export default function index() {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link link-style" href="/work">
+                  <a className="nav-link link-style" href="/portfolio">
                     Portfolio
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a
-                    className="nav-link link-style"
-                     href="./assets/pdf/Jon-Phoenix-Resume.pdf"
-                    download=""
-                  >
-                    Resume
                   </a>
                 </li>
               </ul>

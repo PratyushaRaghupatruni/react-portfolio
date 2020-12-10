@@ -12,13 +12,13 @@ export default function Nav() {
               <ul className="nav justify-content-start transition">
                 <li className="nav-item">
                   <a className="nav-link link-style" href="/">
-                    <strong>Pratyusha Raghupatruni</strong>
+                    <strong style={{fontSize:'25px',color:'black'}}>Pratyusha Raghupatruni</strong>
                     <sup>
                       <span className="note">®</span>
                     </sup>
                   </a>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item" style={{fontSize:'25px',color:'black'}}>
                   <a className="nav-link link-style" href="/portfolio">
                     Portfolio
                   </a>

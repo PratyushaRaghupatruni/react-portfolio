@@ -80,13 +80,12 @@ export default function ProjectList() {
     },
   ];
   return (
-  
      <>
           <Nav />
           <Container>
             <Row>
           {projects.map((project) => (
-            <Portfolio key={project .id} project={project} />
+            <Portfolio key={project.id} project={project} />
         ))}
             </Row>
           </Container>

@@ -1,16 +1,11 @@
 import React from 'react';
-import Nav from '../Nav';
-import Footer from '../Footer';
-import { Container, Card, Row, Col } from 'react-bootstrap';
+import { Card, Col } from 'react-bootstrap';
 
 export default function Portfolio(props) {
   return (
-    <div>
-      <Nav />
-      <Container>
-        <h4>Portfolio Page</h4>
-        <Row>
-          <Col lg={4}>
+   
+<>
+          <Col lg={4} style={{ padding: '20px',backgroundColor: 'transparent',}}>
             <Card
               style={{
                 padding: '18px',
@@ -23,10 +18,10 @@ export default function Portfolio(props) {
               <Card.Img variant="top" src={props.project.imageUrl} />
               <Card.Body>
                 <Card.Title>{props.project.title}</Card.Title>
-                <Card.Text>{props.project.description}</Card.Text>
+                <Card.Text style={{fontSize:'1.2em'}}>{props.project.description}</Card.Text>
                 <div className="buttons">
                   <a
-                    className="btn btn-dark button"
+                    className="btn btn-dark"
                     href={props.project.appUrl}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -34,7 +29,7 @@ export default function Portfolio(props) {
                     App
                   </a>
                   <a
-                    className="btn btn-dark button"
+                    className="btn btn-dark"
                     href={'https://github.com/' + props.project.id}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -45,9 +40,8 @@ export default function Portfolio(props) {
               </Card.Body>
             </Card>
           </Col>
-        </Row>
-      </Container>
-      <Footer />
-    </div>
+  
+      {/* <Footer /> */}
+  </>
   );
 }

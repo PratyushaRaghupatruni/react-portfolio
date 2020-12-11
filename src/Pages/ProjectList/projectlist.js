@@ -22,27 +22,27 @@ export default function ProjectList() {
       imageUrl: "../../images/jobfinder.png",
       appUrl: "https://uw-jobfinder.herokuapp.com/",
     },
-    {
-      id: "mavn2/projectone",
-      title: "Brewery Finder",
-      description:
-        "Connects you to local breweries, making it easy to drink new, fresh, delicious beers without a trip to the bar or bottle shop.",
-      imageUrl: "Comming soon",
-      appUrl: "https://mavn2.github.io/projectone/",
-    },
-    {
-      id: "googlebooksearch",
-      title: "Google Book Search",
-      description:
-        "This app allows users to search for their books of interest via the Google Books API and save them in a visual collection for future purchase.",
-      imageUrl: "Coming Soon",
-      appUrl: "",
-    },
+    // {
+    //   id: "mavn2/projectone",
+    //   title: "Brewery Finder",
+    //   description:
+    //     "Connects you to local breweries, making it easy to drink new, fresh, delicious beers without a trip to the bar or bottle shop.",
+    //   imageUrl: "Comming soon",
+    //   appUrl: "https://mavn2.github.io/projectone/",
+    // },
+    // {
+    //   id: "googlebooksearch",
+    //   title: "Google Book Search",
+    //   description:
+    //     "This app allows users to search for their books of interest via the Google Books API and save them in a visual collection for future purchase.",
+    //   imageUrl: "Coming Soon",
+    //   appUrl: "",
+    // },
     {
       id: "PratyushaRaghupatruni/eat-da-burger ",
       title: "Eat Da Burger",
       description:
-        "Eat Da Burger is a restaurant app where the users input the names of burgers they'd like to eat and has Devour button. When the user clicks it, the burger will move to the right side of the page as 'Devoured'",
+        "This is a restaurant app where the users input the names of burgers  and has Devour button. When the user clicks it, the burger will be 'Devoured'",
       imageUrl: "../../images/eatdaburger.png",
       appUrl: "",
     },
@@ -50,7 +50,7 @@ export default function ProjectList() {
       id: "PratyushaRaghupatruni/fitness-tracker",
       title: "Fitness Tracker",
       description:
-        "A consumer will reach their fitness goals more quickly when they track their workout progress.It allows user to add exercises to a previous or new workout and view stats for multiple workouts.",
+        "Fitness Tracker allows the user to add exercises to a previous or new workout and view stats for multiple workouts.",
       imageUrl: "../../images/fitnesstracker.png",
       appUrl: "https://pr-fitness-tracker.herokuapp.com/",
     },
@@ -58,7 +58,7 @@ export default function ProjectList() {
       id: "PratyushaRaghupatruni/weather-dashboard",
       title: "Weather Dashboard",
       description:
-        "Built a weather dashboard application with search functionality to find current weather conditions and the future weather outlook for multiple citie",
+        "A weather dashboard application  to find current weather conditions and the future weather outlook for multiple citie",
       imageUrl: "../../images/weatherdashboard.png",
       appUrl: "https://pratyusharaghupatruni.github.io/weather-dashboard/",
     },
@@ -71,10 +71,10 @@ export default function ProjectList() {
       appUrl: "",
     },
     {
-      id: "",
+      id: "PratyushaRaghupatruni/code-quiz",
       title: "Code Quiz",
       description:
-        "A timer-based quiz application that stores high scores client-side.",
+        "A timer-based quiz application that stores high scores client-side.Answering incorrectly results in penality of time",
       imageUrl: "../../images/codequiz.png",
       appUrl: "https://pratyusharaghupatruni.github.io/code-quiz/",
     },

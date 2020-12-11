@@ -8,7 +8,6 @@ export default function Portfolio(props) {
           <Col lg={4} style={{ padding: '20px',backgroundColor: 'transparent',}}>
             <Card
               style={{
-                padding: '15px',
                 borderRadius: '10px',
                 backgroundColor: '#ffffff',
                 boxShadow: ' 3px 3px 12px 0 #a9a9a9',
@@ -17,24 +16,22 @@ export default function Portfolio(props) {
             >
               <Card.Img variant="top" src={props.project.imageUrl} />
               <Card.Body>
-                <Card.Title style={{fontSize:'1.6em'}}><strong>{props.project.title}</strong></Card.Title>
-                <Card.Text style={{fontSize:'1.2em', textAlign: 'left',color: '#444444',padding: '20px'}}>{props.project.description}</Card.Text>
-                <div className="buttons">
-                  <a
-                    className="btn btn-dark"
+                <Card.Title style={{fontSize:'1.3em'}}><strong>{props.project.title}</strong></Card.Title>
+                <Card.Text style={{fontSize:'1.2em', textAlign: 'left',color: '#444444',padding: '15px'}}>{props.project.description}</Card.Text>
+                <div  >
+                  <a style={{ minWidth: '100px',margin: '15px 10px 5px',}}
                     href={props.project.appUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    App
+                    <i class='fas fa-globe' style={{fontSize:'24px'}}></i>
                   </a>
-                  <a
-                    className="btn btn-dark"
+                  <a style={{ minWidth: '60px',margin: '15px 10px 5px',}}
                     href={'https://github.com/' + props.project.id}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Github
+                    <i class='fa fa-github github' style={{fontSize:'30px'}}></i>
                   </a>
                 </div>
               </Card.Body>

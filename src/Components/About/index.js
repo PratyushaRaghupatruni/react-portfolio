@@ -9,13 +9,13 @@ export default function About() {
               <div className="row">
                 <div className="col-12 text-center" style= {{margin: '0 auto',maxWidth: '600px',padding: '0 25px',}}>
                   <p  style={{margin: '20px 10px 0 10px',textAlign: 'justify',fontSize:'1.2em',}}>
-                    A multicultural{" "}
-                   <strong>front-end web developer and graphic designer</strong> with
-                   a strong background in <strong>branding</strong>, based in{" "}
-                   <strong>Seattle, WA</strong>. I see everything through the lens of
-                   possibilities, progress, challenges and solutions. I am constantly
-                   looking for learning new skills, experimenting with new ideas, and
-                   delivering excellent design execution.
+                    A Passionate{" "}
+                   <strong>Full Stack web Developer</strong> with
+                   a web development certification from <strong>University of washington</strong>, based in{" "}
+                   <strong>Redmond, WA</strong>.and graduated with <strong>Bachelor of Engineering in Information Technology</strong> from <strong>JNTU Kakinada, India.</strong>
+                    Also worked as a <strong>JUnior Software Engineer</strong>in <strong>Steria,India</strong>
+                   Have a Strong ability to design, build, and maintain websites from conception to production. Ability to work in a fast-paced and diverse team environment developing 
+                   solutions and exceeding expectations.
                  </p>
                </div>
              </div>

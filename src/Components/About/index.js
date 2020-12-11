@@ -28,7 +28,7 @@ export default function About() {
         </div>
       <div className="row">
         <div className="col-12 text-center" style= {{margin: '0 auto', maxWidth: '600px',padding: '0 25px',}}>
-          <p  style={{margin: '40px 10px 60px 10px' ,textAlign: 'justify',fontSize:'1.3em'}}>
+          <p  style={{margin: '40px 10px 40px 10px' ,textAlign: 'justify',fontSize:'1.3em'}}>
              Strong ability to design, build, and maintain websites from conception to production. Ability to work in a fast-paced and diverse team environment developing 
             solutions and exceeding expectations.
             My portfolio features{" "}

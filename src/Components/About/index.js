@@ -8,14 +8,12 @@ export default function About() {
             <div className="container" style={{padding: '20px 0' }}>
               <div className="row">
                 <div className="col-12 text-center" style= {{margin: '0 auto',maxWidth: '600px',padding: '0 25px',}}>
-                  <p  style={{margin: '20px 10px 0 10px',textAlign: 'justify',fontSize:'1.2em',}}>
+                  <p  style={{margin: '20px 10px 0 10px',textAlign: 'justify',fontSize:'1.3em',}}>
                     A Passionate{" "}
-                   <strong>Full Stack web Developer</strong> with
-                   a web development certification from <strong>University of washington</strong>, based in{" "}
-                   <strong>Redmond, WA</strong>.and graduated with <strong>Bachelor of Engineering in Information Technology</strong> from <strong>JNTU Kakinada, India.</strong>
-                    Also worked as a <strong>JUnior Software Engineer</strong>in <strong>Steria,India</strong>
-                   Have a Strong ability to design, build, and maintain websites from conception to production. Ability to work in a fast-paced and diverse team environment developing 
-                   solutions and exceeding expectations.
+                   <strong>Full Stack Web Developer</strong> with
+                   a web development certification from <strong>University of Washington</strong>, based in{" "}
+                   <strong>Redmond, WA</strong>.{" "}Graduated with <strong>Bachelor of Engineering in Information Technology</strong> from <strong>JNTU Kakinada, India.</strong>
+                   {" "}Worked as a <strong>Junior Software Engineer for 2 years </strong> in <strong>Steria, India.</strong>
                  </p>
                </div>
              </div>
@@ -30,24 +28,15 @@ export default function About() {
         </div>
       <div className="row">
         <div className="col-12 text-center" style= {{margin: '0 auto', maxWidth: '600px',padding: '0 25px',}}>
-          <p  style={{margin: '40px 10px 52px 10px' ,textAlign: 'justify',fontSize:'1.2em'}}>
-            A selection of web applications showcasing the broad palette of{" "}
-            <strong>
-              full-stack web development technologies, and UI/UX skills
-            </strong>{" "}
-            that define my process. Proudly featuring{" "}
-            <strong>"5 Sherpas", "Breakaway", and "Discover Serenity"</strong>,
-            the remarkably creative result of a team collaboration as a member
-            of{" "}
-            <a className="link-jon" href="https://github.com/MVC-5">
-              <strong>MVC-5</strong>
-            </a>
-            , a group of full-stack web developers. This portfolio features{" "}
+          <p  style={{margin: '40px 10px 60px 10px' ,textAlign: 'justify',fontSize:'1.3em'}}>
+             Strong ability to design, build, and maintain websites from conception to production. Ability to work in a fast-paced and diverse team environment developing 
+            solutions and exceeding expectations.
+            My portfolio features{" "}
             <strong>JavaScript</strong>, HTML, CSS, jQuery, SQL / NoSQL
             Databases, <strong>MERN: Mongo, Express, Node, React</strong>, and
-            polished UI interfaces. See my work{" "}
-            <a className="link-jon" href="/portfolio">
-              <strong>HERE.</strong>
+            polished UI interfaces. My work is available{" "}
+            <a href="/portfolio">
+              <strong>here.</strong>
             </a>
           </p>
         </div>

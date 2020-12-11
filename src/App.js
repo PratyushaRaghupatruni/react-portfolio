@@ -11,7 +11,6 @@ function App() {
    <Router>
 				{/* Router */}
 				<Switch>
-					// eslint-disable-next-line react/jsx-no-duplicate-props
 					<Route exact path="/" exact component={Main} />
 					<Route path="/portfolio" exact component={ProjectList} />
 					<Route path="/about" exact component={About} />

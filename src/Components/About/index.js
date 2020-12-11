@@ -46,7 +46,7 @@ export default function About() {
             <strong>JavaScript</strong>, HTML, CSS, jQuery, SQL / NoSQL
             Databases, <strong>MERN: Mongo, Express, Node, React</strong>, and
             polished UI interfaces. See my work{" "}
-            <a className="link-jon" href="/work">
+            <a className="link-jon" href="/portfolio">
               <strong>HERE.</strong>
             </a>
           </p>

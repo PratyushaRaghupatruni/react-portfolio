@@ -1,6 +1,7 @@
 import React from 'react';
 // import "../../css/style.css";
 // import { Navbar, Form, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 export default function Nav() {
     return (
@@ -19,9 +20,9 @@ export default function Nav() {
                   </a>
                 </li>
                 <li className="nav-item" style={{fontSize:'1.5em',color:'black'}}>
-                  <a className="nav-link link-style" href="/portfolio">
+                  <Link className="nav-link link-style" to="/portfolio" style={{  fontSize: '25px',color: 'black',}}>
                     Portfolio
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </nav>

@@ -10,6 +10,9 @@ This portfolio features relevant technologies such as JavaScript, HTML, CSS, SQL
 
 Every featured project presents a brief description, and functional icons to see the live application and to see the Github repository. The footer includes links to my main internet handles on Github, LinkedIn, my Resume and a link to contact me by email. This updated portfolio has been created with React and deployed using Github pages.
 
+
+#### **[Deployed Application](https://pratyusharaghupatruni.github.io/react-portfolio/)**
+
 ### Table of Contents
 
 *  [Installation](#installation)

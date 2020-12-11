@@ -1,7 +1,13 @@
 import React from "react";
 import {Container,Row} from 'react-bootstrap';
 import Portfolio from "../../Components/Portfolio";
-
+import oasis from '../../images/oasis.png';
+import jobfinder from '../../images/jobfinder.png';
+import eatdaburger from '../../images/eatdaburger.png';
+import fitnesstracker from '../../images/fitnesstracker.png';
+import weatherdashboard from '../../images/weatherdashboard.png';
+import dayplanner from '../../images/dayplanner.png';
+import codequiz from '../../images/codequiz.png';
 
 
 
@@ -12,7 +18,7 @@ export default function ProjectList() {
       title: "Oasis",
       description:
         "Online journal Application that allows both young and young at heart to write their thoughts, feelings and emotions into a safe, secure and fun journal app. ",
-      imageUrl: "../../../public/images//oasis.png",
+      imageUrl:oasis,
       appUrl: "https://oasis-diary.herokuapp.com",
     },
     {
@@ -20,7 +26,7 @@ export default function ProjectList() {
       title: "Job Finder",
       description:
         "This is a simple Job Finder application where the user can search for the Jobs with keywords like location,role etc.And also the user can Post a Job ",
-      imageUrl: "../../images/jobfinder.png",
+      imageUrl: jobfinder,
       appUrl: "https://uw-jobfinder.herokuapp.com/",
     },
     // {
@@ -44,7 +50,7 @@ export default function ProjectList() {
       title: "Eat Da Burger",
       description:
         "This is a restaurant app where the users input the names of burgers  and has Devour button. When the user clicks it, the burger will be 'Devoured'",
-      imageUrl: "../../images/eatdaburger.png",
+      imageUrl: eatdaburger,
       appUrl: "",
     },
     {
@@ -52,7 +58,7 @@ export default function ProjectList() {
       title: "Fitness Tracker",
       description:
         "Fitness Tracker allows the user to add exercises to a previous or new workout and view stats for multiple workouts.",
-      imageUrl: "../../images/fitnesstracker.png",
+      imageUrl: fitnesstracker,
       appUrl: "https://pr-fitness-tracker.herokuapp.com/",
     },
     {
@@ -60,7 +66,7 @@ export default function ProjectList() {
       title: "Weather Dashboard",
       description:
         "A weather dashboard application  to find current weather conditions and the future weather outlook for multiple citie",
-      imageUrl: "../../images/weatherdashboard.png",
+      imageUrl: weatherdashboard,
       appUrl: "https://pratyusharaghupatruni.github.io/weather-dashboard/",
     },
     {
@@ -68,7 +74,7 @@ export default function ProjectList() {
       title: "Day Planner",
       description:
         "Create a simple calendar application that allows the user to save events for each hour of the day. ",
-      imageUrl: "../../images/dayplanner.png",
+      imageUrl: dayplanner,
       appUrl: "",
     },
     {
@@ -76,7 +82,7 @@ export default function ProjectList() {
       title: "Code Quiz",
       description:
         "A timer-based quiz application that stores high scores client-side.Answering incorrectly results in penality of time",
-      imageUrl: "../../images/codequiz.png",
+      imageUrl: codequiz,
       appUrl: "https://pratyusharaghupatruni.github.io/code-quiz/",
     },
   ];

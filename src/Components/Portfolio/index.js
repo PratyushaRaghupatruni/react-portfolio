@@ -14,7 +14,7 @@ export default function Portfolio(props) {
                 textAlign: 'center',
               }}
             >
-              <Card.Img variant="top" src={props.project.imageUrl} />
+              <Card.Img variant="top" src={props.project.imageUrl}/>
               <Card.Body>
                 <Card.Title style={{fontSize:'1.3em'}}><strong>{props.project.title}</strong></Card.Title>
                 <Card.Text style={{fontSize:'1.2em', textAlign: 'left',color: '#444444',padding: '15px'}}>{props.project.description}</Card.Text>

@@ -7,7 +7,7 @@ export default function Nav() {
     return (
         <div>
            <div>
-        <div className="container " style={{padding :'15px'}}>
+        <div className="container " style={{padding :'25px'}}>
           <header className="row">
             <nav className="col">
               <ul className="nav justify-content-start transition">

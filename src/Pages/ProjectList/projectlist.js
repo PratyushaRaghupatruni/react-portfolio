@@ -1,8 +1,7 @@
 import React from "react";
 import {Container,Row} from 'react-bootstrap';
 import Portfolio from "../../Components/Portfolio";
-import Nav from '../../Components/Nav';
-import Footer from '../../Components/Footer';
+
 
 export default function ProjectList() {
   const projects = [
@@ -81,7 +80,7 @@ export default function ProjectList() {
   ];
   return (
      <>
-          <Nav />
+         
           <Container>
             <Row>
           {projects.map((project) => (
@@ -89,7 +88,7 @@ export default function ProjectList() {
         ))}
             </Row>
           </Container>
-         <Footer />
+        
        </>
  
   );

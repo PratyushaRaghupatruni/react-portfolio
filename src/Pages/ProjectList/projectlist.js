@@ -18,7 +18,7 @@ export default function ProjectList() {
       id: "saikitjk/JobFinder",
       title: "Job Finder",
       description:
-        "This is a simple Job Finder application,User can search for the Jobs with keywords,Post a Job ",
+        "This is a simple Job Finder application where the user can search for the Jobs with keywords like location,role etc.And also the user can Post a Job ",
       imageUrl: "../../images/jobfinder.png",
       appUrl: "https://uw-jobfinder.herokuapp.com/",
     },

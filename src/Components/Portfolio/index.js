@@ -8,7 +8,7 @@ export default function Portfolio(props) {
           <Col lg={4} style={{ padding: '20px',backgroundColor: 'transparent',}}>
             <Card
               style={{
-                padding: '18px',
+                padding: '15px',
                 borderRadius: '10px',
                 backgroundColor: '#ffffff',
                 boxShadow: ' 3px 3px 12px 0 #a9a9a9',
@@ -17,8 +17,8 @@ export default function Portfolio(props) {
             >
               <Card.Img variant="top" src={props.project.imageUrl} />
               <Card.Body>
-                <Card.Title>{props.project.title}</Card.Title>
-                <Card.Text style={{fontSize:'1.2em'}}>{props.project.description}</Card.Text>
+                <Card.Title style={{fontSize:'1.6em'}}><strong>{props.project.title}</strong></Card.Title>
+                <Card.Text style={{fontSize:'1.2em', textAlign: 'left',color: '#444444',padding: '20px'}}>{props.project.description}</Card.Text>
                 <div className="buttons">
                   <a
                     className="btn btn-dark"
@@ -40,8 +40,6 @@ export default function Portfolio(props) {
               </Card.Body>
             </Card>
           </Col>
-  
-      {/* <Footer /> */}
   </>
   );
 }

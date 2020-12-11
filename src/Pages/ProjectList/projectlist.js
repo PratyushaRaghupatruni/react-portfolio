@@ -3,6 +3,8 @@ import {Container,Row} from 'react-bootstrap';
 import Portfolio from "../../Components/Portfolio";
 
 
+
+
 export default function ProjectList() {
   const projects = [
     {
@@ -10,7 +12,7 @@ export default function ProjectList() {
       title: "Oasis",
       description:
         "Online journal Application that allows both young and young at heart to write their thoughts, feelings and emotions into a safe, secure and fun journal app. ",
-      imageUrl: "../../images/oasis.png",
+      imageUrl: "../../../public/images//oasis.png",
       appUrl: "https://oasis-diary.herokuapp.com",
     },
     {

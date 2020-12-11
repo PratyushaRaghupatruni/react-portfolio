@@ -8,7 +8,7 @@ export default function About() {
             <div className="container" style={{padding: '25px 0' }}>
               <div className="row">
                 <div className="col-12 text-center" style= {{margin: '0 auto',maxWidth: '600px',padding: '0 25px',}}>
-                  <p  style={{margin: '20px 0',textAlign: 'justify',fontSize:'1.2em',}}>
+                  <p  style={{margin: '20px 10px 0 10px',textAlign: 'justify',fontSize:'1.2em',}}>
                     A multicultural{" "}
                    <strong>front-end web developer and graphic designer</strong> with
                    a strong background in <strong>branding</strong>, based in{" "}
@@ -30,7 +30,7 @@ export default function About() {
         </div>
       <div className="row">
         <div className="col-12 text-center" style= {{margin: '0 auto', maxWidth: '600px',padding: '0 25px',}}>
-          <p  style={{margin: '40px 0',textAlign: 'justify',fontSize:'1.2em'}}>
+          <p  style={{margin: '40px 10px 52px 10px' ,textAlign: 'justify',fontSize:'1.2em'}}>
             A selection of web applications showcasing the broad palette of{" "}
             <strong>
               full-stack web development technologies, and UI/UX skills

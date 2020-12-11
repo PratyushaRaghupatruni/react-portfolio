@@ -1,8 +1,132 @@
-.background-img {
+html body {
+background: url('../../images/image.png') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: Nunito;
+  font-weight: 500;
+}
+
+
+
+/* .background-img {
   background: url('../../images/image.png') no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
+} */
+.main-container {
+  padding: 25px 0;
+}
+
+.container {
+  padding: 20px;
+}
+
+/* Navbar & Footer */
+.note {
+  font-size: 0.8rem;
+}
+
+.link-style {
+  font-size: 20px;
+  color: black;
+}
+
+.link-jon {
+  color: black;
+}
+
+.link-style:hover .link-jon:hover {
+  color: rgb(0, 251, 255);
+}
+
+.link-icon {
+  margin: 15px;
+}
+
+.copyright {
+  font-size: 0.9em;
+}
+
+footer {
+  padding: 25px 0px;
+}
+
+footer p {
+  margin-top: 15px;
+}
+
+/* Home Page */
+.title {
+  margin-top: 25px;
+  font-size: 2em;
+}
+
+.tagline {
+  font-size: 1.5em;
+}
+
+.about-photo {
+  width: 220px;
+  margin: 0 auto;
+  display: block;
+  clip-path: circle(110px at center);
+}
+
+.paragraph {
+  margin: 40px 0;
+  text-align: justify;
+}
+
+.section {
+  padding: 25px 0px;
+}
+
+.about {
+  margin: 0 auto;
+  max-width: 460px;
+  padding: 0 25px;
+}
+
+/* Tiles */
+#outer {
+  padding: 18px;
+  border: none;
+  background-color: transparent;
+}
+
+.tile {
+  padding: 18px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 3px 3px 12px 0 #a9a9a9;
+  text-align: center;
+}
+
+#image {
+  border: none;
+}
+
+.project-details {
+  text-align: left;
+  font-size: 0.9em;
+  color: #444444;
+  padding: 20px;
+}
+
+.project-title {
+  font-size: 1.2em;
+}
+
+.buttons {
+  text-align: center;
+}
+.button {
+  min-width: 100px;
+  margin: 15px 10px 5px;
 }

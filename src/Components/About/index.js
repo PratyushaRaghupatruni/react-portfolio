@@ -5,7 +5,7 @@ import profile from '../../images/profile.jpeg';
 export default function About() {
     return (
        <>
-            <div className="container" style={{padding: '25px 0' }}>
+            <div className="container" style={{padding: '20px 0' }}>
               <div className="row">
                 <div className="col-12 text-center" style= {{margin: '0 auto',maxWidth: '600px',padding: '0 25px',}}>
                   <p  style={{margin: '20px 10px 0 10px',textAlign: 'justify',fontSize:'1.2em',}}>

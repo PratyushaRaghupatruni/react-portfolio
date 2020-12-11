@@ -11,13 +11,8 @@ export default function Nav() {
           <header className="row">
             <nav className="col">
               <ul className="nav justify-content-start transition">
-                <li className="nav-item">
-                  <a className="nav-link link-style" href="/">
-                    <strong style={{ fontSize: '1.5em',color:'black'}}>Pratyusha Raghupatruni</strong>
-                    <sup>
-                      <span className="note" style={{fontSize:'2em',color:'black'}}>®</span>
-                    </sup>
-                  </a>
+                <li className="nav-item" style={{ fontSize: '1.5em',color:'black',fontWeight:'bold'}}>
+                   <Link className="nav-link link-style" to="/">Pratyusha Raghupatruni</Link>
                 </li>
                 <li className="nav-item" style={{fontSize:'1.5em',color:'black'}}>
                   <Link className="nav-link link-style" to="/portfolio" style={{  fontSize: '25px',color: 'black',}}>

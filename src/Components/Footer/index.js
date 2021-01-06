@@ -23,7 +23,7 @@ export default function Footer() {
                     2020
                 </p>
               </div>
-         </footer>     
+         </footer>
         </>
     )
 }

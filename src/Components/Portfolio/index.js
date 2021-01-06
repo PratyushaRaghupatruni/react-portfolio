@@ -18,7 +18,7 @@ export default function Portfolio(props) {
               <Card.Body>
                 <Card.Title style={{fontSize:'1.3em'}}><strong>{props.project.title}</strong></Card.Title>
                 <Card.Text style={{fontSize:'1.2em', textAlign: 'left',color: '#444444',padding: '15px'}}>{props.project.description}</Card.Text>
-                <div  >
+                <div>
                   <a style={{ minWidth: '100px',margin: '15px 10px 5px',}}
                     href={props.project.appUrl}
                     target="_blank"

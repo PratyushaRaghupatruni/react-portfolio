@@ -2,20 +2,22 @@
 import React from "react";
 import './App.css';
 // import Main from './Pages/Main/main';
-import Nav from './Components/Nav';
-import Footer from './Components/Footer'
+import Navbar from './Components/Navbar';
+import Home from './Components/Home';
+import Footer from './Components/Footer';
 import ProjectList from './Components/ProjectList';
 import About from './Components/About';
 import { BrowserRouter as Router }from 'react-router-dom';
 
 function App() {
   return (
-		<div className='background-img'>
+		<div className='App'>
         <Router>
-			     <Nav />
-			     <About />	
-			  	 <ProjectList />
-           <Footer />
+			     <Navbar />
+                  <Home />
+			      <About />	
+			  	  <ProjectList />
+                  <Footer />
 		</Router>
 		</div>
   );

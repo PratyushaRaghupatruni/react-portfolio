@@ -87,9 +87,15 @@ export default function ProjectList() {
     },
   ];
   return (
-     <>
+     <> 
+    
          <section id ="portfolio">
           <Container>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+             
             <Row>
           {projects.map((project) => (
             <Portfolio key={project.id} project={project} />

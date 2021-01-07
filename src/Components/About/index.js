@@ -4,11 +4,16 @@ import profile from '../../images/profile.jpeg';
 
 export default function About() {
     return (
-       <>
-            <div className="container" style={{padding: '20px 0' }}>
+       <> 
+            <section id="about">
+            <div className="container">
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
               <div className="row">
                 <div className="col-12 text-center" style= {{margin: '0 auto',maxWidth: '600px',padding: '0 25px',}}>
-                  <p  style={{margin: '20px 10px 0 10px',textAlign: 'justify',fontSize:'1.3em',}}>
+                  <p  style={{margin: '20px 10px 0 10px',textAlign: 'justify',fontSize:'1.3em', color: 'black' ,}}>
                     A Passionate{" "}
                    <strong>Full Stack Web Developer</strong> with
                    a web development certification from <strong>University of Washington</strong>, based in{" "}
@@ -28,7 +33,7 @@ export default function About() {
         </div>
       <div className="row">
         <div className="col-12 text-center" style= {{margin: '0 auto', maxWidth: '600px',padding: '0 25px',}}>
-          <p  style={{margin: '40px 10px 20px 10px' ,textAlign: 'justify',fontSize:'1.3em'}}>
+          <p  style={{margin: '40px 10px 20px 10px' ,textAlign: 'justify',fontSize:'1.3em', color: 'black'}}>
              Strong ability to design, build, and maintain websites from conception to production. Ability to work in a fast-paced and diverse team environment developing 
             solutions and exceeding expectations.
             My portfolio features{" "}
@@ -41,6 +46,7 @@ export default function About() {
           </p>
         </div>
       </div>
+      </section>
         </>
     )
 }

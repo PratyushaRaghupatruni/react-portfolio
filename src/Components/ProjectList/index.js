@@ -9,6 +9,8 @@ import weatherdashboard from '../../images/weatherdashboard.png';
 import dayplanner from '../../images/dayplanner.png';
 import codequiz from '../../images/codequiz.png';
 
+import '../../assets/css/style.css';
+
 
 
 export default function ProjectList() {
@@ -90,9 +92,19 @@ export default function ProjectList() {
      <> 
     
          <section id ="portfolio">
+           <div className='container'>
+             <br></br>
+             <br></br>
+             <br></br>
+             <br></br>
+          <div className="row">
+            <div className="col-12">
+              <h2 className="text-center header-Projects">Projects</h2>
+            </div>
+           </div> 
+
+           <hr className="line"></hr>
           <Container>
-            <br></br>
-            <br></br>
             <br></br>
             <br></br>
              
@@ -102,6 +114,9 @@ export default function ProjectList() {
         ))}
             </Row>
           </Container>
+          </div>
+          <br></br>
+          <br></br>
         </section>
        </>
  

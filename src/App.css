@@ -1,3 +1,13 @@
-html body {
-  font-family: Nunito;
-}  
+html{
+  scroll-behavior: smooth;
+}
+
+html body{
+  background: url('../src/images/testing1.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex; 
+  flex-direction: column;
+  font-family: 'Times New Roman', Times, serif;
+}

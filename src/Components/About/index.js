@@ -1,52 +1,68 @@
 import React from 'react';
 import profile from '../../images/profile.jpeg';
+import "../../assets/css/style.css";
+
+
 
 
 export default function About() {
     return (
        <> 
-            <section id="about">
-            <div className="container">
+        <div id="aboutme">
+            <div className="container" style={{ padding: '20px' }}>
               <br></br>
               <br></br>
               <br></br>
               <br></br>
               <div className="row">
-                <div className="col-12 text-center" style= {{margin: '0 auto',maxWidth: '600px',padding: '0 25px',}}>
-                  <p  style={{margin: '20px 10px 0 10px',textAlign: 'justify',fontSize:'1.3em', color: 'black' ,}}>
+                <div className="col-12">
+                 <h2 className="text-center header-aboutme">About Me</h2>
+                </div>
+               </div> 
+               <hr className="line"></hr>
+
+
+              <div className="row">
+                <div className="col-md-3 col-sm-12 d-flex align-items-center justify-content-center" >
+
+                   <div>
+                     <img style={{width: '220px',margin: '0 auto',display: 'block',clipPath: 'circle(110px at center)'}}
+                       src={profile}
+                       alt="Pratyusha Raghupatruni"
+                     />
+                   </div>
+                </div>  
+                <div className="col-md-9 col-sm-12 " style={{ margin: '0 auto', padding: '0 25px'}}	>
+                  <p className='aboutme-description' >
                     A Passionate{" "}
-                   <strong>Full Stack Web Developer</strong> with
-                   a web development certification from <strong>University of Washington</strong>, based in{" "}
-                   <strong>Redmond, WA</strong>.{" "}Graduated with <strong>Bachelor of Engineering in Information Technology</strong> from <strong>JNTU Kakinada, India.</strong>
-                   {" "}Worked as a <strong>Junior Software Engineer for 2 years </strong> in <strong>Steria, India.</strong>
+                   Full Stack Web Developer with
+                   a web development certification from University of Washington, based in{" "}
+                   Redmond, WA.{" "}Graduated with Bachelor of Engineering in Information Technology from Jawaharlal Nehru Technology University, Kakinada, India.
+                   {" "}Worked as a Junior Software Engineer for 2 years  in Steria, India.
                  </p>
-               </div>
-             </div>
+
+                  <p className='aboutme-description'>
+                    I have a Strong ability to design, build, maintain websites from conception to production and ability to work in a fast-paced , diverse team environment developing 
+                    solutions and exceeding expectations.
+                  </p>
+
+                  <p className='aboutme-description' >  
+                    My portfolio features{" "}
+                    JavaScript, HTML, CSS, jQuery, SQL / NoSQL
+                    Databases, MERN: Mongo, Express, Node, React and
+                    polished UI interfaces. My work is available{" "}
+                   <a href="#portfolio">
+                   <strong>here.</strong>
+                   </a>
+                  </p>
+              
+              </div>
+              </div>
             </div>
-         <div className="col-12 text-center">
-            <div>
-               <img style={{width: '220px',margin: '0 auto',display: 'block',clipPath: 'circle(110px at center)'}}
-                src={profile}
-                alt="Pratyusha Raghupatruni"
-               />
-           </div>
+            <br></br>
+            <br></br>
         </div>
-      <div className="row">
-        <div className="col-12 text-center" style= {{margin: '0 auto', maxWidth: '600px',padding: '0 25px',}}>
-          <p  style={{margin: '40px 10px 20px 10px' ,textAlign: 'justify',fontSize:'1.3em', color: 'black'}}>
-             Strong ability to design, build, and maintain websites from conception to production. Ability to work in a fast-paced and diverse team environment developing 
-            solutions and exceeding expectations.
-            My portfolio features{" "}
-            <strong>JavaScript</strong>, HTML, CSS, jQuery, SQL / NoSQL
-            Databases, <strong>MERN: Mongo, Express, Node, React</strong>, and
-            polished UI interfaces. My work is available{" "}
-            <a href="#portfolio">
-              <strong>here.</strong>
-            </a>
-          </p>
-        </div>
-      </div>
-      </section>
+       
         </>
     )
 }

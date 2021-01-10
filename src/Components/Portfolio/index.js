@@ -9,8 +9,9 @@ export default function Portfolio(props) {
             <Card
               style={{
                 borderRadius: '10px',
-                backgroundColor: '#ffffff',
-                boxShadow: ' 3px 3px 12px 0 #a9a9a9',
+                 backgroundColor: '#FFDEE9',
+                 backgroundImage: 'linear-gradient(238deg,#e1d3d7 20%, #769fbf 80%)',
+                boxShadow: ' 1px 1px 1px 0 #a9a9a9',
                 textAlign: 'center',
               }}
             >

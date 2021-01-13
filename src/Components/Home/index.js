@@ -11,7 +11,7 @@ export default function index() {
           <div className ="container-fluid "> 
             <h3 className="header-name ml-5" > Hi,</h3>
             <h3 className="header-name ml-5 ">I'm Pratyusha Raghupatruni</h3>
-            <p className="header-description ml-5">Full Stack Web Developer, Redmond , Washington</p>
+            <p className="header-description ml-5">Full Stack Web Developer, Redmond , WA</p>
            <div className =' mb-3 mt-5 ml-5' >
             
              <a href="https://github.com/PratyushaRaghupatruni" className="btn icons" title="Github" target="_blank" rel="noopener noreferrer"

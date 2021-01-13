@@ -12,11 +12,11 @@ export default function Footer() {
                   </div>
                  
                 <div className ='container mb-3' >
-                   <a href='https://www.linkedin.com/in/pratyusha-raghupatruni-96a35832/' className="btn  icons"><i class='fa fa-linkedin linkedln' 
+                   <a href='https://www.linkedin.com/in/pratyusha-raghupatruni-96a35832/' className="btn  icons"><i class='fa fa-linkedin ' 
                       style={{ fontSize:30,color :'#E8E8E8',marginRight : '30px'}}></i></a>
-                   <a href='https://github.com/PratyushaRaghupatruni' className="btn  icons"><i class='fa fa-github github'  
+                   <a href='https://github.com/PratyushaRaghupatruni' className="btn  icons"><i class='fa fa-github'  
                       style={{ fontSize:30,color :'#E8E8E8',marginRight : '30px'}}></i></a>
-                   <a href='mailto:pratyusha.raghupatruni@gmail.com' className="btn icons"><i class='fa fa-envelope mail'
+                   <a href='mailto:pratyusha.raghupatruni@gmail.com' className="btn icons"><i class='fa fa-envelope '
                        style={{fontSize:30,color:'#E8E8E8', marginRight : '30px',}}></i></a>
                   <a href= { resume } className="btn  icons" title="Resume" target="_blank" rel="noopener noreferrer"
                       style={{fontSize:30, color:'#E8E8E8'}}><i className="fas fa-file-pdf"></i></a>

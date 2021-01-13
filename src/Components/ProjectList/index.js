@@ -1,5 +1,5 @@
 import React from "react";
-import {Container,Row} from 'react-bootstrap';
+import {Row} from 'react-bootstrap';
 import Portfolio from "../../Components/Portfolio";
 import oasis from '../../images/oasis.png';
 import jobfinder from '../../images/jobfinder.png';
@@ -103,17 +103,16 @@ export default function ProjectList() {
             </div>
            </div> 
 
-           <hr className="line"></hr>
-          <Container>
+          <hr className="line"></hr>
+          
             <br></br>
             <br></br>
              
             <Row>
-          {projects.map((project) => (
-            <Portfolio key={project.id} project={project} />
-        ))}
+            {projects.map((project) => (
+              <Portfolio key={project.id} project={project} />
+             ))}
             </Row>
-          </Container>
           </div>
           <br></br>
           <br></br>

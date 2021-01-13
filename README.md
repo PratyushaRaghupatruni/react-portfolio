@@ -46,12 +46,6 @@ Run npm install in the terminal after cloning the project.
 |--|--|--
 |![Laptop](./src/images/profile.png)|![Tablet](./src/images/profileipad.png)|![Mobile](./src/images/profilephone.png)
 
-#### Portfolio Page
-
-|Medium Devices/ Laptop|Small Devices/ Tablet|Extra Small Devices/Phone
-|--|--|--
-|![Laptop](./src/images/portfolio.png)|![Tablet](./src/images/portfolioipad.png)|![Mobile](./src/images/portfoliophone.png)
-
 
 ### Technology
 

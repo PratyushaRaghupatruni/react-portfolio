@@ -55,6 +55,51 @@ a.li-list:hover{
     color:#14959a !important;
 }
 
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  z-index: 10;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 15px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #ddd;
+}
+
+.email {
+  background: #55acee;
+  color: white;
+}
+
+.phone {
+  background: #719bac;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.github {
+  background: #814f8f;
+  color: white;
+}
+
 #portfolio {
   background: url('../../images/test1.jpg') no-repeat center center fixed;
   background-size: cover;
@@ -71,13 +116,22 @@ a.li-list:hover{
 }
 
 .header-aboutme , .header-Projects {
- font-weight: bold;
+  font-weight: bold;
   background: -webkit-linear-gradient(#281cae,#029bb0);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+.card-title {
+  background: -webkit-linear-gradient(#2213cc,#06c1da);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 
 .aboutme-description {
     margin:20px 10px 0 10px;
@@ -89,6 +143,12 @@ a.li-list:hover{
 .line  {
      background: linear-gradient(to right,#281cae,#029bb0);
      height: 2px;
+}
+
+.color-adjuster{
+      background-color: #FFDEE9;
+      background-image: linear-gradient(238deg,#e1d3d7 20%, #769fbf 80%);
+      padding : 40px;
 }
 
 .techstack-container {
@@ -183,12 +243,6 @@ a.li-list:hover{
   margin-left:-22px;
 
 } 
-}
-
-.color-adjuster{
-      background-color: #FFDEE9;
-      background-image: linear-gradient(238deg,#e1d3d7 20%, #769fbf 80%);
-      padding : 40px;
 }
 
 @media (max-width: 768px) and (min-width: 575.98px ) {

@@ -7,11 +7,9 @@ export default function Portfolio(props) {
    
 <>
           <Col lg={4} style={{ padding: '20px',backgroundColor: 'transparent',}}>
-            <Card
+            <Card className='card-style'
               style={{
                 borderRadius: '10px',
-                //  backgroundColor: '#FFDEE9',
-                //  backgroundImage: 'linear-gradient(238deg,#e1d3d7 20%, #769fbf 80%)',
                 boxShadow: ' 1px 1px 1px 0 #a9a9a9',
                 textAlign: 'center',
               }}

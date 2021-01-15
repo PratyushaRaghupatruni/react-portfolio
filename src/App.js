@@ -19,8 +19,8 @@ function App() {
         <Navbar />
         <Home />
         <About/>
-		<TechStack />
-		<Adjuster />
+	    	<TechStack />
+	    	<Adjuster />
         <ProjectList/>
         <Footer />
     

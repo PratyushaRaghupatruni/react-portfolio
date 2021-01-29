@@ -23,7 +23,8 @@ export default function Portfolio(props) {
                
                 <div className='float-left'>
                   <button className='btn-grad ' style={{ minWidth: '60px',margin: '0px 0px 10px 20px',}}>Details</button>
-                </div>  
+                </div> 
+                 
                  <div className="float-right " style={{ margin: '8px 0px 20px 20px',}}>
                      <a  style={{ minWidth: '60px',margin: '0px 0px 20px 20px',}}
                       href={props.project.appUrl}

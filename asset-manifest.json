@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.726270f1.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.51c5fa58.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.51c5fa58.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.4e4b03a5.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.f1efd864.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.f1efd864.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.e03e0800.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.e03e0800.js.map",
     "static/css/2.1a02f21c.chunk.css": "/react-portfolio/static/css/2.1a02f21c.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.ce72fdcc.chunk.js.map": "/react-portfolio/static/js/3.ce72fdcc.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
     "static/css/2.1a02f21c.chunk.css.map": "/react-portfolio/static/css/2.1a02f21c.chunk.css.map",
-    "static/css/main.726270f1.chunk.css.map": "/react-portfolio/static/css/main.726270f1.chunk.css.map",
+    "static/css/main.4e4b03a5.chunk.css.map": "/react-portfolio/static/css/main.4e4b03a5.chunk.css.map",
     "static/js/2.13d1f88e.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.13d1f88e.chunk.js.LICENSE.txt",
     "static/media/brewery.a3eecd2b.png": "/react-portfolio/static/media/brewery.a3eecd2b.png",
     "static/media/codequiz.528066fe.png": "/react-portfolio/static/media/codequiz.528066fe.png",
@@ -32,7 +32,7 @@
     "static/js/runtime-main.e03e0800.js",
     "static/css/2.1a02f21c.chunk.css",
     "static/js/2.13d1f88e.chunk.js",
-    "static/css/main.726270f1.chunk.css",
-    "static/js/main.51c5fa58.chunk.js"
+    "static/css/main.4e4b03a5.chunk.css",
+    "static/js/main.f1efd864.chunk.js"
   ]
 }

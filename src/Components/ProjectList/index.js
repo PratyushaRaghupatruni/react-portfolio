@@ -27,7 +27,7 @@ export default function ProjectList() {
     },
 
      {
-      id: "googlebooksearch",
+      id: "PratyushaRaghupatruni/google-books-search",
       title: "Google Book Search (MERN)",
       description:
         "This app allows users to search for their books of interest via the Google Books API and save them in a visual collection for future purchase.",

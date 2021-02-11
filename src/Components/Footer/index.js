@@ -12,9 +12,9 @@ export default function Footer() {
                   </div>
                  
                 <div className ='container mb-3' >
-                   <a href='https://www.linkedin.com/in/pratyusha-raghupatruni-96a35832/' className="btn  icons"><i class='fa fa-linkedin ' 
+                   <a href='https://www.linkedin.com/in/pratyusha-raghupatruni-96a35832/' className="btn  icons"><i class='fab fa-linkedin ' 
                       style={{ fontSize:30,color :'#E8E8E8',marginRight : '30px'}}></i></a>
-                   <a href='https://github.com/PratyushaRaghupatruni' className="btn  icons"><i class='fa fa-github'  
+                   <a href='https://github.com/PratyushaRaghupatruni' className="btn  icons"><i class='fab fa-github'  
                       style={{ fontSize:30,color :'#E8E8E8',marginRight : '30px'}}></i></a>
                    <a href='mailto:pratyusha.raghupatruni@gmail.com' className="btn icons"><i class='fa fa-envelope '
                        style={{fontSize:30,color:'#E8E8E8', marginRight : '30px',}}></i></a>

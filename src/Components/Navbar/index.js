@@ -8,16 +8,16 @@ export default function Nav() {
             <nav >
               <ul className="navbar nav justify-content-center fixed-top navbar-dark navbarColor " >
                 <li className="nav-item">
-                   <a className="nav-link li-list" href="#homepage" >Home</a>
+                   <a className="nav-link li-list" href="#homepage" >HOME</a>
                 </li>
                 <li className="nav-item" >
                   <a className="nav-link li-list" href="#aboutme">
-                    About
+                    ABOUT
                   </a> 
                 </li>  
                 <li className="nav-item" >
                   <a className="nav-link li-list" href="#portfolio">
-                    Portfolio
+                    PORTFOLIO
                   </a>  
                 </li>
 

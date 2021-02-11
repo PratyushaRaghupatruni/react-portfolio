@@ -31,7 +31,7 @@ export default function Portfolio(props) {
                     href={'https://github.com/' + props.project.id}
                     target="_blank"
                     rel="noopener noreferrer">
-                    <i className ='fa fa-github icon-card ' style={{fontSize:'36px'}}></i>
+                    <i className ='fab fa-github icon-card ' style={{fontSize:'36px'}}></i>
                   </a>
               </Card.Body>
             </Card>

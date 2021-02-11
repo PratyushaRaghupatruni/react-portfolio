@@ -35,8 +35,8 @@ export default function index() {
         <div class="icon-bar">
           <a target="_blank" rel="noopener noreferrer" href="mailto:pratyusha.raghupatruni@gmail.com" className="email"><i class="fa fa-envelope"></i></a>
           <a target="_blank" rel="noopener noreferrer" href="tel:425-898-3432" className="phone" ><i class="fa fa-phone"></i></a>
-          <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/pratyusha-raghupatruni-96a35832/" className="linkedin"><i class="fa fa-linkedin"></i></a>
-          <a target="_blank" rel="noopener noreferrer" href="https://github.com/PratyushaRaghupatruni" className="github"><i class="fa fa-github"></i></a>
+          <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/pratyusha-raghupatruni-96a35832/" className="linkedin"><i class="fab fa-linkedin"></i></a>
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/PratyushaRaghupatruni" className="github"><i class="fab fa-github"></i></a>
         </div>
       </>
     )
